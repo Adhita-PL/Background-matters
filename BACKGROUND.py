@@ -7,8 +7,7 @@ img = cv2.imread('paris.jpg')
 while True :
     ret, frame = video.read() 
     frame = cv2.resize(frame, (640, 480)) 
-    img = cv2.resize(image, (640, 480)) 
-  
+    image = cv2.resize(img, (640, 480))
   
     u_black = np.array([104, 153, 70]) 
     l_black = np.array([30, 30, 0]) 
